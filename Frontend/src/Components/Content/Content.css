@@ -1,0 +1,27 @@
+.Content{
+    background-color: white;
+    margin: 1rem 2rem;
+    height: initial;
+    width:initial;
+    border-radius: 10px;
+    min-height: 82%;
+}
+
+@media (max-width: 1200px) {
+    .Content {
+      height: initial;
+      width: initial;
+      min-height: 70%;
+    }
+    
+}
+
+@media (max-width: 766px) {
+  .Content {
+    height: initial;
+    width: initial;
+    min-width: 85%;
+    min-height: 62%;
+}
+
+}
