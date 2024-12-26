@@ -10,7 +10,7 @@ const app = express();
 
 // Define custom CORS options
 const corsOptions = {
-  origin: ['http://localhost:3000'],  // Allow requests from frontend at localhost:3000
+  origin: https://student-dashboard-5769-k3pqssxy7-srehansu108s-projects.vercel.app/students,  
   methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Allowed HTTP methods
   credentials: true,  // Allow credentials such as cookies or authorization headers
 };
