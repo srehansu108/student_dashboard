@@ -10,9 +10,9 @@ const app = express();
 
 // Define custom CORS options
 const corsOptions = {
-  origin: https://student-dashboard-5769-k3pqssxy7-srehansu108s-projects.vercel.app/students,  
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Allowed HTTP methods
-  credentials: true,  // Allow credentials such as cookies or authorization headers
+  origin: 'https://student-dashboard-5769-k3pqssxy7-srehansu108s-projects.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+  credentials: true, // Allow credentials such as cookies or authorization headers
 };
 
 // Enable CORS with the custom options
